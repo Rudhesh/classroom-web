@@ -1,0 +1,186 @@
+
+h1 {
+    width:290px;
+    border: 1px solid white;
+    padding: 6px;
+    text-align: center;
+    border-radius: 40px;
+    color: white;
+    background: rgba(0, 0, 139, 0.514);
+
+}
+
+body{
+    font-size: 24px;
+    background: slateblue;
+    font-family: 'Poiret One', cursive;
+    
+}
+.nodot {
+
+    list-style-type:none
+}
+
+
+.search-box {
+
+    position: absolute;
+    left: 22%;
+    top: 3.6%;
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    width: 600px;
+/* transform: translate(-50%, -50%); */
+/* border: blue 5px solid; */
+}
+
+.search-box:hover > .search-txt{
+
+    width: 600px;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+.search-btn {
+font-size: 20px;
+/* border: blue 40px solid; */
+    border-radius: 40px;
+    background: blue;
+justify-content: center;
+display: flex;
+align-items: center;
+width: 400px;
+
+}
+
+.search-txt {
+    /* border: blue 3px solid; */
+    border-radius: 40px;
+    width: 280px;
+    /* color: black; */
+    font-size: 36px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+
+
+.wrapper .sidebar {
+  
+    position: fixed;
+    margin: 0;
+    width: 300px;
+    height: 100%;
+    /* background: rgb(67, 67, 128); */
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background: rgba(0, 0, 139, 0.514);
+    ;
+
+}
+
+.wrapper .sidebar ul li {
+   
+padding: 15px;
+
+/* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+li:hover {
+    background: rgba(42, 42, 80, 0.74);
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+.wrapper .sidebar ul li a {
+color: white;
+    font-size: 36px;
+    text-decoration: none;
+    
+    
+}
+
+/* .item1 {
+    background: orange;
+}
+.item2 {
+    background: orange;
+}
+.item3 {
+    background: orange;
+}
+.item4 {
+    background: orange;
+}
+.item5 {
+    background: orange;
+}
+.item6 {
+    background: orange;
+}
+.item7 {
+    background: orange;
+}
+.item8 {
+    background: orange;
+}
+.item9 {
+    background: orange;
+}
+.item10 {
+    background: orange;
+}
+.uib1{
+
+background: orange;
+
+}
+.uib2{
+
+    background: orange;
+    
+    } */
+.item:hover {
+background: rgb(67, 67, 128);
+/* text-decoration: underline orangered; */
+/* border: 3px solid rgb(255, 255, 255); */
+zoom: 110%;
+
+}
+
+.item {
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    color: rgb(255, 255, 255);
+    /* background: rgb(67, 67, 128); */
+    
+    border-radius: 30px;
+    /* margin: 10px; */
+    font-size: 36px;
+    padding: 10px;
+    /* height: 400px; */
+    
+}
+
+h2 {
+    font-family: 'Poiret One', cursive;
+border: 1px solid white;
+width: 150px;
+padding: 6px;
+text-align: center;
+border-radius: 30px;
+color: white;
+background: rgba(0, 0, 139, 0.514);
+
+}
+
+.container {
+margin-left: 310px;
+width: 1500px;
+height: 200px;
+padding: 30px;
+    /* border: 1px solid white; */
+    border-radius: 50px;
+   
+}
